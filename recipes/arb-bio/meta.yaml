@@ -154,8 +154,13 @@ outputs:
         - xorg-libxft
         - xorg-libxt
         - libpng
+        - xfig <= 3.2.6a
         # tools:
-        - gnuplot
+        - gnuplot <= 5.0.4
+        - readline <= 8.2
+        - libtiff <= 4.1.0
+        - xerces-c <= 3.2.2
+        - cairo <= 1.16.0
         - muscle
         - mafft
         - raxml
